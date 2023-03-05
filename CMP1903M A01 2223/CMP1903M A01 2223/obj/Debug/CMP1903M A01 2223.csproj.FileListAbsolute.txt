@@ -1,0 +1,8 @@
+D:\git\assignement-1\CMP1903M A01 2223\CMP1903M A01 2223\bin\Debug\CMP1903M A01 2223.exe.config
+D:\git\assignement-1\CMP1903M A01 2223\CMP1903M A01 2223\bin\Debug\CMP1903M A01 2223.exe
+D:\git\assignement-1\CMP1903M A01 2223\CMP1903M A01 2223\bin\Debug\CMP1903M A01 2223.pdb
+D:\git\assignement-1\CMP1903M A01 2223\CMP1903M A01 2223\obj\Debug\CMP1903M A01 2223.csproj.AssemblyReference.cache
+D:\git\assignement-1\CMP1903M A01 2223\CMP1903M A01 2223\obj\Debug\CMP1903M A01 2223.csproj.SuggestedBindingRedirects.cache
+D:\git\assignement-1\CMP1903M A01 2223\CMP1903M A01 2223\obj\Debug\CMP1903M A01 2223.csproj.CoreCompileInputs.cache
+D:\git\assignement-1\CMP1903M A01 2223\CMP1903M A01 2223\obj\Debug\CMP1903M A01 2223.exe
+D:\git\assignement-1\CMP1903M A01 2223\CMP1903M A01 2223\obj\Debug\CMP1903M A01 2223.pdb
