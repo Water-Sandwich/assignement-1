@@ -15,6 +15,7 @@ namespace CMP1903M_A01_2223
             Pack pack = new Pack();
 
             Pack.shuffleCardPack(0); //none
+            PrintDeck(Pack.deck);
             pack = new Pack(); // reset deck
 
             Pack.shuffleCardPack(1); // fisher yates
@@ -27,6 +28,15 @@ namespace CMP1903M_A01_2223
             Pack.dealCard(2);
         }
 
+        static void PrintDeck(in List<Card> deck)
+        {
+            string str = "";
+            foreach(Card card in deck)
+            {
+                str += card.ToString() + '\n';
+            }
+            Console.WriteLine(str);
+        }
 
     }
 }

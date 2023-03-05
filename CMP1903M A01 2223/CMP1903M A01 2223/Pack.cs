@@ -9,7 +9,7 @@ namespace CMP1903M_A01_2223
     //class is entirely static, creating objects is pointless
     class Pack
     {
-        static List<Card> deck = new List<Card>();
+        public static List<Card> deck { get; } = new List<Card>();
 
         //calling this resets the deck
         public Pack()
