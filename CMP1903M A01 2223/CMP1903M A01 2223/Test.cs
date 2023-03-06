@@ -31,6 +31,8 @@ namespace CMP1903M_A01_2223
             Console.WriteLine($"dealt  {Pack.dealCard()}");
             Console.WriteLine("Dealt the following:");
             PrintDeck(Pack.dealCard(2));
+
+            Console.WriteLine("Press enter to close");
             Console.Read();
         }
 

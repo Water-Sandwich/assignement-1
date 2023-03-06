@@ -35,16 +35,22 @@ namespace CMP1903M_A01_2223
             switch (typeOfShuffle)
             {
                 case 1:
+                    Console.WriteLine("Beggining Fisher-Yates shuffle");
                     FisherYates();
                     return true;
 
                 case 2:
+                    Console.WriteLine("Beggining Riffle shuffle");
                     RiffleShuffle();
                     return true;
 
-                case 3: return true;
+                case 3:
+                    Console.WriteLine("No shuffle");
+                    return true;
 
-                default: return false;
+                default:
+                    Console.WriteLine("Error, given shuffle does not exist");
+                    return false;
             }
         }
 
