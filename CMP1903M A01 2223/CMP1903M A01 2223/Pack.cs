@@ -49,7 +49,7 @@ namespace CMP1903M_A01_2223
         }
 
         //assuming dealing a card removes it from the deck
-        public static Card deal()
+        public static Card dealCard()
         {
             //Deals one card
             Card card = deck.First();
