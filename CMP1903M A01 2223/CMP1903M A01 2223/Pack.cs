@@ -64,7 +64,7 @@ namespace CMP1903M_A01_2223
             List<Card> cards = new List<Card>();
             for(int i = 0; i < amount; i++)
             {
-                cards.Add(deal());
+                cards.Add(dealCard());
             }
             return cards;
         }

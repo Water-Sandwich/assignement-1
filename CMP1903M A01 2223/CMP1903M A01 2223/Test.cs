@@ -28,7 +28,7 @@ namespace CMP1903M_A01_2223
             PrintDeck(Pack.deck);
             Console.WriteLine("riffle ^");
 
-            Console.WriteLine($"dealt  {Pack.deal()}");
+            Console.WriteLine($"dealt  {Pack.dealCard()}");
             Console.WriteLine("Dealt the following:");
             PrintDeck(Pack.dealCard(2));
             Console.Read();
