@@ -16,16 +16,22 @@ namespace CMP1903M_A01_2223
 
             Pack.shuffleCardPack(0); //none
             PrintDeck(Pack.deck);
+            Console.WriteLine("No shuffle ^");
             pack = new Pack(); // reset deck
 
             Pack.shuffleCardPack(1); // fisher yates
+            PrintDeck(Pack.deck);
+            Console.WriteLine("fisher ^");
             pack = new Pack(); // reset deck
 
             Pack.shuffleCardPack(2); //riffle
-            pack = new Pack(); // reset deck
+            PrintDeck(Pack.deck);
+            Console.WriteLine("riffle ^");
 
-            Pack.deal();
-            Pack.dealCard(2);
+            Console.WriteLine($"dealt  {Pack.deal()}");
+            Console.WriteLine("Dealt the following:");
+            PrintDeck(Pack.dealCard(2));
+            Console.Read();
         }
 
         static void PrintDeck(in List<Card> deck)

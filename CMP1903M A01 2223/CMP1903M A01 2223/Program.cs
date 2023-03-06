@@ -11,6 +11,7 @@ namespace CMP1903M_A01_2223
         static void Main(string[] args)
         {
             Test.Run();
+            Console.Read();
         }
     }
 }

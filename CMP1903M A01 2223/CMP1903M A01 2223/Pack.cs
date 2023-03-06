@@ -52,11 +52,12 @@ namespace CMP1903M_A01_2223
         public static Card deal()
         {
             //Deals one card
-            Card card = deck.Last();
-            deck.RemoveAt(deck.Count - 1);
+            Card card = deck.First();
+            deck.RemoveAt(0);
             return card;
         }
 
+        //assuming dealing a card removes it from the deck
         public static List<Card> dealCard(int amount)
         {
             //Deals the number of cards specified by 'amount'
@@ -86,7 +87,7 @@ namespace CMP1903M_A01_2223
             }
         }
 
-        static void RiffleShuffle(int iterations = 52 /* 2x deck */) 
+        static void RiffleShuffle(int iterations = 104 /* 2x deck */) 
         {
             //swap 2 random cards for n interations
 
