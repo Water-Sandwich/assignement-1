@@ -18,33 +18,7 @@ namespace CMP1903M_A01_2223
         public override string ToString()
         {
             //cast ints to enums as string
-            return $"{(Val)Value} of {(Suits)Suit}";
+            return $"{(Enums.Val)Value} of {(Enums.Suits)Suit}";
         }
-    }
-
-    enum Suits
-    {
-        Diamonds = 1,
-        Clubs = 2,
-        Hearts = 3,
-        Spades = 4,
-    }
-
-    enum Val
-    {
-        Ace = 1,
-        Two,
-        Three,
-        Four,
-        Five,
-        Six,
-        Seven,
-        Eight,
-        Nine,
-        Ten,
-        Eleven,
-        Jack,
-        Queen,
-        King,
     }
 }
