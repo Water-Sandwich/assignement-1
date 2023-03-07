@@ -13,6 +13,9 @@ namespace CMP1903M_A01_2223
         {
             //constructor only initiliases the deck, the object itself however is more or less useless
             Pack pack = new Pack();
+            Console.WriteLine("Unchanged");
+            PrintDeck(Pack.deck);
+            Console.WriteLine("^^^ Unchanged");
 
             Pack.shuffleCardPack(0); //none
             PrintDeck(Pack.deck);
