@@ -110,6 +110,7 @@ namespace CMP1903M_A01_2223
                     b = r.Next(0, deck.Count);
                 }
 
+                //swap cards
                 temp = deck[a];
                 deck[a] = deck[b];
                 deck[b] = temp;
